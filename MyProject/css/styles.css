@@ -1,0 +1,198 @@
+
+body {
+
+    font-size: 14px;
+    font-weight: normal;
+
+    line-height: 1.1em;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#main-heading{
+
+    color: red;
+
+
+}
+
+
+.article-design{
+
+
+    font-size: 8px;
+
+    border-top: 2.5px red dotted;
+    border-right: 2.5px red solid;
+    border-left: 2.5px red solid;
+    border-bottom: 2.5px red dotted;
+
+    /* Method 1 */
+
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+
+    /* Method 2 */
+
+    /*
+    padding: 10px;
+    */
+
+    /* Method 3 */
+
+    /*
+    padding: 10px 5px 40px 100px;
+    */
+
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+
+
+.article-design h2{
+
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+
+}
+
+
+
+.container{
+
+    width: 500px;
+    margin: auto;
+
+}
+
+
+.categories{
+
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.categories h3{
+
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+    text-align: center;
+
+}
+
+.categories ul{
+
+    list-style: circle;
+
+
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(66, 99, 243);
+
+}
+
+a:hover{
+
+
+    color:pink;
+
+}
+
+
+.form1{
+
+    padding: 15px;
+
+}
+
+.form1 .form-section{
+
+    padding-bottom: 25px;
+
+}
+
+.form1 label{
+
+    display: block;
+
+}
+
+.form1 input{
+
+    width:50%;
+    padding: 5px;
+
+}
+
+
+.btn1 {
+
+    color: white;
+    background-color: black;
+
+    border-radius: 20px;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    padding: 10px;
+
+}
+
+.btn1:hover{
+
+    background: green;
+    color: white;
+
+}
+
+
+.image-box{
+
+    height: 450px;
+    width: 750px;
+
+    border: 2px solid black;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    background-image:url('../images/Background.jpg');
+
+    background-position: 150px 200px;
+
+    background-position: center;
+
+
+}
+
+
+
+
+
+
+
+
+
